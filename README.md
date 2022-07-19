@@ -43,8 +43,7 @@ You can change some class settings:
 ```
 ## Using
 ____
-The first step is to access the field by the name that was passed in the constructor of the class, using the method `->getField('phone')`.
-Then you can call any methods to check the transmitted data:
+To validate field you must enter field name in method field, and then call needed methods to validate:
 ```php
 $val->getField('data')
                        ->phone('usa');//rus, usa, kz
